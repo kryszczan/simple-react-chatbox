@@ -1,0 +1,25 @@
+.ChatWidget__chat {
+  padding: 13px;
+  width: 100%;
+  flex: 1;
+  box-sizing: border-box;
+  overflow: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.ChatWidget__chat::-webkit-scrollbar {
+  width: 13px;
+}
+
+.ChatWidget__chat::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px 10px #3e414b;
+  border: solid 3px transparent;
+  border-radius: 10px;
+}
+
+.ChatWidget__chat::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 10px 10px #46aac6;
+  border: solid 3px transparent;
+  border-radius: 10px;
+}

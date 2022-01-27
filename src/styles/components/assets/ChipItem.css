@@ -1,0 +1,38 @@
+.ChipItem__content {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.ChipItem__content.me {
+  align-items: flex-end;
+}
+
+.ChipItem_chip {
+  margin-bottom: 3px;
+  display: flex;
+  padding: 10px;
+  background-color: #1aedf7;
+  color: #000;
+  width: fit-content;
+  max-width: 80%;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  border-bottom-left-radius: 0;
+}
+
+.ChipItem__content.me > .ChipItem_chip {
+  background-color: #333d4d;
+  color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 0;
+}
+
+.ChipItem_chip_date {
+  color: #515f79;
+  font-weight: 500;
+  font-size: 12px;
+}
